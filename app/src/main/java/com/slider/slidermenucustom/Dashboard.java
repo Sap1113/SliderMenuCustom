@@ -200,7 +200,7 @@ public class Dashboard extends FragmentActivity implements View.OnClickListener 
             intent.setType("image/*");
             intent.setAction(Intent.ACTION_GET_CONTENT);
             startActivityForResult(Intent.createChooser(intent, "Select a photo"),
-                    GALLERY_IMAGE_REQUEST);
+                    GALLERY_IMAGE_REQUEST); 
         }
     }
 
